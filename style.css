@@ -59,7 +59,7 @@ h1 {
 
 @media (min-width: 768px) {
     .buttons-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* Upraveno pro 4 tlačítka, 2x2 */
     }
 }
 
@@ -93,7 +93,7 @@ h1 {
 }
 
 .button-4 {
-    background: linear-gradient(45deg, #ffc107, #d39e00);
+    background: linear-gradient(45deg, #6f42c1, #563d7c); /* Nová fialová barva */
 }
 
 .button-text {
