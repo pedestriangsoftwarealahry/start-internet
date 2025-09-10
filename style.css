@@ -59,7 +59,7 @@ h1 {
 
 @media (min-width: 768px) {
     .buttons-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -90,6 +90,10 @@ h1 {
 
 .button-3 {
     background: linear-gradient(45deg, #dc3545, #a71d2a);
+}
+
+.button-4 {
+    background: linear-gradient(45deg, #ffc107, #d39e00);
 }
 
 .button-text {
